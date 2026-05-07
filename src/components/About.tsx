@@ -1,4 +1,4 @@
-import portrait from "@/assets/portrait.jpg";
+import portrait from "@/assets/about-portrait.jpg";
 import compass from "@/assets/compass.png";
 import { SectionTitle } from "./SectionTitle";
 import { MapPin, GraduationCap, Star } from "lucide-react";
