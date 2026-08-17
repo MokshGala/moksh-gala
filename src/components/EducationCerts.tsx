@@ -8,8 +8,7 @@ const education = [
 
 const certs = [
   "Machine Learning Specialization – Andrew Ng (Coursera, DeepLearning.AI)",
-  "DBMS Fundamentals – Infosys Springboard",
-  "Python Essential – Cisco Networking Academy",
+  "Python Full Stack Internship Credential – EduSkills Academy",
   "Intel – Get Started with Gen AI",
 ];
 

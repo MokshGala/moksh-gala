@@ -17,12 +17,13 @@ export function About() {
 
           <div className="space-y-6">
             <p className="text-foreground/85 text-base md:text-lg leading-relaxed">
-              I'm a final-year B.Tech student in Artificial Intelligence and Data Science at
-              Shah And Anchor Kutchhi Engineering College. Passionate about building intelligent
-              systems using AI, ML, NLP and modern technologies.
+              I'm a B.Tech graduate in Artificial Intelligence and Data Science from
+              Shah and Anchor Kutchhi Engineering College, with a strong foundation in machine learning,
+              deep learning, NLP, computer vision, and Generative AI.
             </p>
             <p className="text-foreground/75 leading-relaxed">
-              I love turning ideas into real-world solutions that make life easier and more impactful.
+              Passionate about building intelligent solutions and continuously learning emerging technologies,
+              I love turning ideas into real-world systems that create impact.
             </p>
 
             <div className="grid sm:grid-cols-3 gap-4 pt-4">

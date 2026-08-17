@@ -1,12 +1,17 @@
 import { SectionTitle } from "./SectionTitle";
-import { Code2, Brain, Sparkles, Globe, Wrench } from "lucide-react";
+import { Code2, Brain, Cpu, MessageSquare, Eye, Sparkles, Layers, Database, Globe, Wrench } from "lucide-react";
 
 const groups = [
-  { Icon: Code2, title: "LANGUAGES", items: ["C", "C++", "Java", "Python", "SQL"] },
-  { Icon: Brain, title: "AI / ML LIBRARIES", items: ["pandas", "numpy", "scikit-learn", "keras", "tensorflow", "pytorch", "matplotlib", "seaborn", "OpenCV", "NLTK", "spaCy", "transformers", "sentence-transformers", "faiss", "chromadb"] },
-  { Icon: Sparkles, title: "GEN AI & AGENTIC AI", items: ["LangChain", "LangGraph", "OpenAI API", "Gemini API", "Groq", "Ollama", "RAG Pipelines", "Prompt Engineering", "Agentic Workflows"] },
-  { Icon: Globe, title: "WEB DEVELOPMENT", items: ["HTML", "CSS", "JavaScript", "Django", "Streamlit", "FastAPI"] },
-  { Icon: Wrench, title: "TOOLS & PLATFORMS", items: ["Git & GitHub", "VS Code", "Cursor", "Jupyter", "Google Colab", "Hugging Face", "Vercel"] },
+  { Icon: Code2, title: "PROGRAMMING", items: ["Python"] },
+  { Icon: Brain, title: "MACHINE LEARNING", items: ["Scikit-learn", "Pandas", "NumPy"] },
+  { Icon: Cpu, title: "DEEP LEARNING", items: ["TensorFlow", "Keras", "PyTorch"] },
+  { Icon: MessageSquare, title: "NLP", items: ["NLTK", "TF-IDF", "Transformers"] },
+  { Icon: Eye, title: "COMPUTER VISION", items: ["OpenCV", "Image Processing", "Data Augmentation", "Image Classification"] },
+  { Icon: Sparkles, title: "GENERATIVE AI", items: ["LangChain", "LangGraph", "LangSmith", "RAG", "Prompt Engineering", "AI Agents", "OpenAI API", "Gemini API", "Groq", "Ollama", "Hugging Face Transformers"] },
+  { Icon: Layers, title: "VECTOR DATABASES", items: ["FAISS", "ChromaDB"] },
+  { Icon: Database, title: "DATABASES", items: ["PostgreSQL", "MySQL"] },
+  { Icon: Globe, title: "FRAMEWORKS", items: ["Streamlit", "FastAPI", "Django"] },
+  { Icon: Wrench, title: "TOOLS", items: ["Git", "GitHub", "DVC", "MLFlow"] },
 ];
 
 export function Skills() {
