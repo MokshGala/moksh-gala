@@ -1,3 +1,4 @@
+import youtubeRag from "@/assets/project-youtube-rag.png.asset.json";
 import fakenews from "@/assets/project-fakenews.jpg";
 import skin from "@/assets/project-skin.jpg";
 import summarizer from "@/assets/project-summarizer.jpg";
@@ -5,11 +6,11 @@ import { SectionTitle } from "./SectionTitle";
 
 const projects = [
   {
-    year: "2023",
-    img: fakenews,
-    title: "Fake News Detection",
-    desc: "ML model using TF-IDF, Random Forest and SVM to classify news articles as real or fake. Built with Streamlit for real-time predictions.",
-    tags: ["Python", "Scikit-learn", "NLTK", "Streamlit"],
+    year: "2026",
+    img: youtubeRag.url,
+    title: "YouTube Video Q&A Chatbot (RAG)",
+    desc: "End-to-end RAG pipeline that ingests YouTube transcripts, embeds them with Google's text-embedding-004, indexes them in FAISS, and answers questions via Gemini 2.5 Flash with source-transparent responses in a Streamlit app.",
+    tags: ["Python", "LangChain", "FAISS", "Google Gemini", "Streamlit"],
   },
   {
     year: "2024",
