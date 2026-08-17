@@ -9,8 +9,8 @@ const projects = [
     year: "2026",
     img: youtubeRag.url,
     title: "YouTube Video Q&A Chatbot (RAG)",
-    desc: "ML model using TF-IDF, Random Forest and SVM to classify news articles as real or fake. Built with Streamlit for real-time predictions.",
-    tags: ["Python", "Scikit-learn", "NLTK", "Streamlit"],
+    desc: "End-to-end RAG pipeline that ingests YouTube transcripts, embeds them with Google's text-embedding-004, indexes them in FAISS, and answers questions via Gemini 2.5 Flash with source-transparent responses in a Streamlit app.",
+    tags: ["Python", "LangChain", "FAISS", "Google Gemini", "Streamlit"],
   },
   {
     year: "2024",
