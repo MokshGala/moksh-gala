@@ -7,7 +7,7 @@ const items = [
   { Icon: Mail, label: "Email", href: "mailto:mokshgala00@gmail.com" },
   { Icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/moksh-gala-a6435125b/" },
   { Icon: Github, label: "GitHub", href: "https://github.com/MokshGala" },
-  { Icon: Code, label: "LeetCode", href: "https://leetcode.com/u/mokshgala00" },
+  { Icon: Code, label: "LeetCode", href: "https://leetcode.com/u/mokshgala00/" },
 ];
 
 export function Contact() {
