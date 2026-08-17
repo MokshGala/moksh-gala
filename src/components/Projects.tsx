@@ -1,3 +1,4 @@
+import youtubeRag from "@/assets/project-youtube-rag.png.asset.json";
 import fakenews from "@/assets/project-fakenews.jpg";
 import skin from "@/assets/project-skin.jpg";
 import summarizer from "@/assets/project-summarizer.jpg";
