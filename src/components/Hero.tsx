@@ -1,6 +1,7 @@
 import heroOcean from "@/assets/hero-ocean.jpg";
 import portrait from "@/assets/portrait.jpg";
 import parchment from "@/assets/parchment.jpg";
+import resume from "@/assets/MokshGala_Resume.pdf.asset.json";
 import { Github, Linkedin, Mail, FolderOpen, Download, MessageSquare } from "lucide-react";
 
 export function Hero() {
@@ -40,7 +41,7 @@ export function Hero() {
             <a href="#projects" className="group inline-flex items-center gap-2 bg-gradient-to-r from-[oklch(0.82_0.16_80)] to-[oklch(0.68_0.16_70)] text-primary-foreground px-6 py-3 rounded-md text-xs tracking-[0.2em] font-bold neon-glow hover:scale-105 transition-transform">
               <FolderOpen className="w-4 h-4" /> VIEW PROJECTS
             </a>
-            <a href="#contact" className="glass inline-flex items-center gap-2 px-6 py-3 rounded-md text-xs tracking-[0.2em] font-bold text-foreground hover:border-gold transition-colors">
+            <a href={resume.url} download className="glass inline-flex items-center gap-2 px-6 py-3 rounded-md text-xs tracking-[0.2em] font-bold text-foreground hover:border-gold transition-colors">
               <Download className="w-4 h-4 text-gold" /> DOWNLOAD RESUME
             </a>
             <a href="#contact" className="glass inline-flex items-center gap-2 px-6 py-3 rounded-md text-xs tracking-[0.2em] font-bold text-foreground hover:border-gold transition-colors">
