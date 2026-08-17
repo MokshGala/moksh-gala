@@ -6,9 +6,9 @@ import { SectionTitle } from "./SectionTitle";
 
 const projects = [
   {
-    year: "2023",
-    img: fakenews,
-    title: "Fake News Detection",
+    year: "2026",
+    img: youtubeRag.url,
+    title: "YouTube Video Q&A Chatbot (RAG)",
     desc: "ML model using TF-IDF, Random Forest and SVM to classify news articles as real or fake. Built with Streamlit for real-time predictions.",
     tags: ["Python", "Scikit-learn", "NLTK", "Streamlit"],
   },
