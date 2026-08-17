@@ -1,4 +1,5 @@
 import youtubeRag from "@/assets/project-youtube-rag.png.asset.json";
+import docAgent from "@/assets/project-doc-agent.png.asset.json";
 import fakenews from "@/assets/project-fakenews.jpg";
 import skin from "@/assets/project-skin.jpg";
 import summarizer from "@/assets/project-summarizer.jpg";
@@ -11,6 +12,13 @@ const projects = [
     title: "YouTube Video Q&A Chatbot (RAG)",
     desc: "End-to-end RAG pipeline that ingests YouTube transcripts, embeds them with Google's text-embedding-004, indexes them in FAISS, and answers questions via Gemini 2.5 Flash with source-transparent responses in a Streamlit app.",
     tags: ["Python", "LangChain", "FAISS", "Google Gemini", "Streamlit"],
+  },
+  {
+    year: "2026",
+    img: docAgent.url,
+    title: "Autonomous Document Generation Agent",
+    desc: "A 5-stage agent pipeline that turns natural-language requests into fully formatted Word documents. It plans structured sections via a deterministic tool registry, reflects on quality to rewrite weak parts, and exposes everything through a resilient FastAPI layer with Pydantic v2 validation, retries, and rolling memory.",
+    tags: ["FastAPI", "Google Gemini", "python-docx", "Pydantic v2"],
   },
   {
     year: "2024",
