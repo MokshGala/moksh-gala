@@ -22,6 +22,13 @@ const projects = [
   },
   {
     year: "2024",
+    img: fakenews,
+    title: "Fake News Detection",
+    desc: "Machine learning pipeline that classifies news articles as real or fake using NLP techniques, TF-IDF vectorization, and ensemble models to combat misinformation.",
+    tags: ["Python", "Scikit-learn", "NLTK", "TF-IDF"],
+  },
+  {
+    year: "2024",
     img: skin,
     title: "Skin Disease Classification",
     desc: "Deep learning model using CNN, VGG16 and ResNet to classify skin diseases from medical images with high accuracy.",
