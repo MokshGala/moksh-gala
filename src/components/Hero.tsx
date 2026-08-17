@@ -51,11 +51,11 @@ export function Hero() {
 
           <div className="mt-8 flex items-center gap-4">
             {[
-              { Icon: Github, href: "https://github.com/MokshGala" },
-              { Icon: Linkedin, href: "https://linkedin.com/in/moksh-gala" },
-              { Icon: Mail, href: "mailto:mokshgala00@gmail.com" },
-            ].map(({ Icon, href }, i) => (
-              <a key={i} href={href} target="_blank" rel="noreferrer"
+              { Icon: Github, label: "GitHub", href: "https://github.com/MokshGala" },
+              { Icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/moksh-gala-a6435125b/" },
+              { Icon: Mail, label: "Email", href: "mailto:mokshgala00@gmail.com" },
+            ].map(({ Icon, label, href }) => (
+              <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label}
                 className="w-11 h-11 rounded-full glass flex items-center justify-center text-gold hover:neon-glow hover:border-gold transition-all">
                 <Icon className="w-4 h-4" />
               </a>
